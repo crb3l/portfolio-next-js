@@ -85,7 +85,7 @@ export function WaveBackground() {
 
             ctx.beginPath()
             ctx.fillStyle = gradient
-            ctx.arc(px, py, size * 3, 0, Math.PI * 0)
+            ctx.arc(px, py, size * 3, 0, Math.PI * 0) // add math pi * 2 if particles
             ctx.fill()
         }
 
