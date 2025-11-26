@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: "/portoflio-next-js",
-  assetPrefix: "/portoflio-next-js",
+  basePath: "/portfolio-next-js",
+  // assetPrefix: "/portoflio-next-js",
+  trailingSlash: true,
  
   eslint: {
     ignoreDuringBuilds: true,
