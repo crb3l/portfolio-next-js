@@ -231,7 +231,7 @@ export default function Home() {
                     title: "Vehicle Route Optimization",
                     excerpt: "Full-stack application for vehicle route problems. It finds the most optimal route for vehicles to travel using VROOM + OSRM for the VRP engine, Python for the backend and React on the frontend.",
                     date: "Ongoing",
-                    url: "https://github.com/crb3l/route-optimizer"
+                    url: "https://vrum.treideee.ro"
                     // readTime: "8 min",
                   },
 
@@ -256,13 +256,13 @@ export default function Home() {
                     url: "https://trainsport.1.treideee.ro"
                     // readTime: "8 min",
                   },
-                  {
-                    title: "Vehicle Fleet Routing Optimization",
-                    excerpt: "Start of fleet management project aimed mainly at Romanian couriering firms. Available in RO/EN. Uses VROOM and OSRM.",
-                    date: "Ongoing",
-                    url: "https://vrum.treideee.ro"
-                    // readTime: "8 min",
-                  },
+                  // {
+                  //   title: "Vehicle Fleet Routing Optimization",
+                  //   excerpt: "Start of fleet management project aimed mainly at Romanian couriering firms. Available in RO/EN. Uses VROOM and OSRM.",
+                  //   date: "Ongoing",
+                  //   url: "https://vrum.treideee.ro"
+                  //   // readTime: "8 min",
+                  // },
                   {
                     title: "Treidee(e) - 3D Printing Web Application for Amateurs and Enthusiasts",
                     excerpt: "A 3D printing website with custom printing solutions.",
