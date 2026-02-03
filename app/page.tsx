@@ -257,6 +257,13 @@ export default function Home() {
                     // readTime: "8 min",
                   },
                   {
+                    title: "Vehicle Fleet Routing Optimization",
+                    excerpt: "Start of fleet management project aimed mainly at Romanian couriering firms. Available in RO/EN. Uses VROOM and OSRM.",
+                    date: "Ongoing",
+                    url: "https://vrum.treideee.ro"
+                    // readTime: "8 min",
+                  },
+                  {
                     title: "Treidee(e) - 3D Printing Web Application for Amateurs and Enthusiasts",
                     excerpt: "A 3D printing website with custom printing solutions.",
                     date: "Finished",
