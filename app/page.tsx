@@ -100,9 +100,9 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="text-sm text-muted-foreground font-mono">CURRENTLY</div>
                   <div className="space-y-2">
-                    <div className="text-foreground">Software Engineer / Master Student</div>
-                    <div className="text-muted-foreground">@ Self-employed / RTU</div>
-                    <div className="text-xs text-muted-foreground">2021 — Present</div>
+                    <div className="text-foreground">Fullstack Software Engineer</div>
+                    <div className="text-muted-foreground">@ Ambo</div>
+                    <div className="text-xs text-muted-foreground">2026 — Present</div>
                   </div>
                 </div>
 
@@ -238,7 +238,7 @@ export default function Home() {
                     title: "Vehicle Route Optimization",
                     excerpt: "Full-stack application for vehicle route problems. It finds the most optimal route for vehicles to travel using VROOM + OSRM for the VRP engine, Python for the backend and React on the frontend.",
                     date: "Ongoing",
-                    url: "https://vrum.treideee.ro"
+                    url: //"https://vrum.treideee.ro"
                     // readTime: "8 min",
                   },
 
@@ -246,7 +246,7 @@ export default function Home() {
                     title: "Tattoo Portfolio",
                     excerpt: "Simple tattoo portfolio website made for a renowned tatoo artist.",
                     date: "Ongoing",
-                    url: "https://tattoo.treideee.ro"
+                    url: "https://crb3l.github.io/tattoo-portfolio/"//"https://tattoo.treideee.ro"
                     // readTime: "8 min",
                   },
                   {
@@ -260,7 +260,7 @@ export default function Home() {
                     title: "Package Delivery Solution",
                     excerpt: "Simple website to be used as package delivery representation. Part of bigger fleet management project.",
                     date: "Ongoing",
-                    url: "https://trainsport.1.treideee.ro"
+                    url: "https://crb3l.github.io/package-transport-site/"//"https://trainsport.1.treideee.ro"
                     // readTime: "8 min",
                   },
                   // {
