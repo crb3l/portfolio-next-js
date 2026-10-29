@@ -139,6 +139,13 @@ export default function Home() {
               <div className="space-y-8 sm:space-y-12">
                 {[
                   {
+                    year: "2026",
+                    role: "FullStack Software Engineer",
+                    company: "Ambo",
+                    description: "Worked on the fullstack architecture of a private booking application. Worked directly with clients and implemented important features.",
+                    tech: ["React", "TypeScript", "Node.js", "MongoDB", "Azure", "CASL"],
+                  },
+                  {
                     year: "2025",
                     role: "FullStack Developer",
                     company: "Treidee(e)",
