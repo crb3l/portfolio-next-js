@@ -238,10 +238,9 @@ export default function Home() {
                     title: "Vehicle Route Optimization",
                     excerpt: "Full-stack application for vehicle route problems. It finds the most optimal route for vehicles to travel using VROOM + OSRM for the VRP engine, Python for the backend and React on the frontend.",
                     date: "Ongoing",
-                    url: //"https://vrum.treideee.ro"
+                    url: "" //"https://vrum.treideee.ro"
                     // readTime: "8 min",
                   },
-
                   {
                     title: "Tattoo Portfolio",
                     excerpt: "Simple tattoo portfolio website made for a renowned tatoo artist.",
