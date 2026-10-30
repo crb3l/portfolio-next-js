@@ -238,20 +238,23 @@ export default function Home() {
                     title: "Vehicle Route Optimization",
                     excerpt: "Full-stack application for vehicle route problems. It finds the most optimal route for vehicles to travel using VROOM + OSRM for the VRP engine, Python for the backend and React on the frontend.",
                     date: "Ongoing",
-                    url: "" //"https://vrum.treideee.ro"
+                    url: "", //"https://vrum.treideee.ro"
+                    wip: true,
                     // readTime: "8 min",
                   },
                   {
                     title: "Tattoo Portfolio",
                     excerpt: "Simple tattoo portfolio website made for a renowned tatoo artist.",
                     date: "Ongoing",
-                    url: "https://crb3l.github.io/tattoo-portfolio/"//"https://tattoo.treideee.ro"
+                    url: "https://crb3l.github.io/tattoo-portfolio/",//"https://tattoo.treideee.ro"
+                    wip: false
                     // readTime: "8 min",
                   },
                   {
                     title: "Automated Motorised Hand for Light Switching",
                     excerpt: "Exploring how automation can help daily tasks.",
                     date: "Ongoing",
+                    wip: true
                     // readTime: "5 min",
 
                   },
@@ -259,7 +262,8 @@ export default function Home() {
                     title: "Package Delivery Solution",
                     excerpt: "Simple website to be used as package delivery representation. Part of bigger fleet management project.",
                     date: "Ongoing",
-                    url: "https://crb3l.github.io/package-transport-site/"//"https://trainsport.1.treideee.ro"
+                    url: "https://crb3l.github.io/package-transport-site/",//"https://trainsport.1.treideee.ro"
+                    wip: false
                     // readTime: "8 min",
                   },
                   // {
@@ -272,15 +276,17 @@ export default function Home() {
                   {
                     title: "Treidee(e) - 3D Printing Web Application for Amateurs and Enthusiasts",
                     excerpt: "A 3D printing website with custom printing solutions.",
-                    date: "Finished",
-                    url: "https://treideee.ro"
+                    date: "Finished - Offline",
+                    url: "https://treideee.ro",
+                    wip: true,
                     // readTime: "6 min",
                   },
                   {
                     title: "Brain App - Cognitive improvement in your pocket",
                     excerpt: "Application meant to improve cognitive functions for users with mental defficiencies",
                     date: "Finished",
-                    url: "https://github.com/crb3l/brain-app"
+                    url: "https://github.com/crb3l/brain-app",
+                    wip: false,
                     // readTime: "4 min",
                   },
                 ].map((post, index) => (
@@ -303,7 +309,7 @@ export default function Home() {
                       <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-yellow transition-colors duration-300">
                         {/* <Link
                           href="mailto:test@example.com"> */}
-                        <a href={post.url}>Read more</a>
+                        {post.wip ? <a href={post.url}>Read more</a> : <p>Work in progress</p>}
                         <svg
                           className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
                           fill="none"
