@@ -309,7 +309,7 @@ export default function Home() {
                       <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-yellow transition-colors duration-300">
                         {/* <Link
                           href="mailto:test@example.com"> */}
-                        {post.wip ? <a href={post.url}>Read more</a> : <p>Work in progress</p>}
+                        {post.wip ? <p>Work in progress</p> : <a href={post.url}>Read more</a>}
                         <svg
                           className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
                           fill="none"
